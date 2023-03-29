@@ -1,0 +1,15 @@
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\ConstructorUse\bin\Debug\net6.0\ConstructorUse.exe
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\ConstructorUse\bin\Debug\net6.0\ConstructorUse.deps.json
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\ConstructorUse\bin\Debug\net6.0\ConstructorUse.runtimeconfig.json
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\ConstructorUse\bin\Debug\net6.0\ConstructorUse.dll
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\ConstructorUse\bin\Debug\net6.0\ConstructorUse.pdb
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\ConstructorUse\obj\Debug\net6.0\ConstructorUse.csproj.AssemblyReference.cache
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\ConstructorUse\obj\Debug\net6.0\ConstructorUse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\ConstructorUse\obj\Debug\net6.0\ConstructorUse.AssemblyInfoInputs.cache
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\ConstructorUse\obj\Debug\net6.0\ConstructorUse.AssemblyInfo.cs
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\ConstructorUse\obj\Debug\net6.0\ConstructorUse.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\ConstructorUse\obj\Debug\net6.0\ConstructorUse.dll
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\ConstructorUse\obj\Debug\net6.0\refint\ConstructorUse.dll
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\ConstructorUse\obj\Debug\net6.0\ConstructorUse.pdb
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\ConstructorUse\obj\Debug\net6.0\ConstructorUse.genruntimeconfig.cache
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\ConstructorUse\obj\Debug\net6.0\ref\ConstructorUse.dll

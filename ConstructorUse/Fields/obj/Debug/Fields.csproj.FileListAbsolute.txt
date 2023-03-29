@@ -1,0 +1,8 @@
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\Fields\bin\Debug\Fields.exe.config
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\Fields\bin\Debug\Fields.exe
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\Fields\bin\Debug\Fields.pdb
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\Fields\obj\Debug\Fields.csproj.AssemblyReference.cache
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\Fields\obj\Debug\Fields.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\Fields\obj\Debug\Fields.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\Fields\obj\Debug\Fields.exe
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\Fields\obj\Debug\Fields.pdb

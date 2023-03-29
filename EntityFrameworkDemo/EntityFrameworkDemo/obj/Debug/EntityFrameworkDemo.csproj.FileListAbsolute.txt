@@ -1,0 +1,15 @@
+C:\Users\Nimap\Desktop\CheckList_Task\EntityFrameworkDemo\EntityFrameworkDemo\bin\Debug\EntityFrameworkDemo.exe.config
+C:\Users\Nimap\Desktop\CheckList_Task\EntityFrameworkDemo\EntityFrameworkDemo\bin\Debug\EntityFrameworkDemo.exe
+C:\Users\Nimap\Desktop\CheckList_Task\EntityFrameworkDemo\EntityFrameworkDemo\bin\Debug\EntityFrameworkDemo.pdb
+C:\Users\Nimap\Desktop\CheckList_Task\EntityFrameworkDemo\EntityFrameworkDemo\bin\Debug\EntityFramework.dll
+C:\Users\Nimap\Desktop\CheckList_Task\EntityFrameworkDemo\EntityFrameworkDemo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nimap\Desktop\CheckList_Task\EntityFrameworkDemo\EntityFrameworkDemo\bin\Debug\EntityFramework.xml
+C:\Users\Nimap\Desktop\CheckList_Task\EntityFrameworkDemo\EntityFrameworkDemo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nimap\Desktop\CheckList_Task\EntityFrameworkDemo\EntityFrameworkDemo\obj\Debug\EntityFrameworkDemo.csproj.AssemblyReference.cache
+C:\Users\Nimap\Desktop\CheckList_Task\EntityFrameworkDemo\EntityFrameworkDemo\obj\Debug\EntityFrameworkDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nimap\Desktop\CheckList_Task\EntityFrameworkDemo\EntityFrameworkDemo\obj\Debug\EntityFrameworkDemo.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\Desktop\CheckList_Task\EntityFrameworkDemo\EntityFrameworkDemo\obj\Debug\EntityFrameworkDemo.csproj.CopyComplete
+C:\Users\Nimap\Desktop\CheckList_Task\EntityFrameworkDemo\EntityFrameworkDemo\obj\Debug\EntityFrameworkDemo.exe
+C:\Users\Nimap\Desktop\CheckList_Task\EntityFrameworkDemo\EntityFrameworkDemo\obj\Debug\EntityFrameworkDemo.pdb
+C:\Users\Nimap\Desktop\CheckList_Task\EntityFrameworkDemo\EntityFrameworkDemo\obj\Debug\EntityFrameworkDemo.Migrations.InitialModel.resources
+C:\Users\Nimap\Desktop\CheckList_Task\EntityFrameworkDemo\EntityFrameworkDemo\obj\Debug\EntityFrameworkDemo.csproj.GenerateResource.cache

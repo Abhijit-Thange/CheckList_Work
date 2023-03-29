@@ -1,0 +1,8 @@
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\LambadaExpression\bin\Debug\LambadaExpression.exe.config
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\LambadaExpression\bin\Debug\LambadaExpression.exe
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\LambadaExpression\bin\Debug\LambadaExpression.pdb
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\LambadaExpression\obj\Debug\LambadaExpression.csproj.AssemblyReference.cache
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\LambadaExpression\obj\Debug\LambadaExpression.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\LambadaExpression\obj\Debug\LambadaExpression.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\LambadaExpression\obj\Debug\LambadaExpression.exe
+C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\LambadaExpression\obj\Debug\LambadaExpression.pdb
