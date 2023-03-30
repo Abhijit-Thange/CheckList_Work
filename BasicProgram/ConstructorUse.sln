@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodOverload", "MethodOve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopWatch", "StopWatch\StopWatch.csproj", "{68ECE99A-A45C-4196-9A0C-422483C001A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringB", "StringBuilder\StringB.csproj", "{3547F5BC-A027-49EC-A9D0-F1D36BBFF51D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stringbuilder", "StringBuilder\Stringbuilder.csproj", "{3547F5BC-A027-49EC-A9D0-F1D36BBFF51D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamKeyword", "ParamKeyword\ParamKeyword.csproj", "{DCFB13BD-4264-4D86-AD56-E1BA869159D4}"
 EndProject
@@ -37,9 +37,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskParallelLibrary", "Task
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{439EA176-CE41-4F3A-9A16-206914D03DD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicVarObject", "DynamicVarObject\DynamicVarObject.csproj", "{7EA24951-4FA6-4E6A-95CC-5F9131870E0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamic_Var_Object", "DynamicVarObject\Dynamic_Var_Object.csproj", "{7EA24951-4FA6-4E6A-95CC-5F9131870E0B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchStatement", "SwitchStatement\SwitchStatement.csproj", "{E84A8F51-6081-4872-98F2-69FE5C61D9BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringInterpolation", "StringInterpolation\StringInterpolation.csproj", "{EFC90F62-F167-42C3-93BA-2AFA340B6683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primitive_NonPrimitive", "Primitive_NonPrimitive\Primitive_NonPrimitive.csproj", "{45FAD2A8-1648-4962-B033-7EE0A71A893D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +127,14 @@ Global
 		{E84A8F51-6081-4872-98F2-69FE5C61D9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E84A8F51-6081-4872-98F2-69FE5C61D9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E84A8F51-6081-4872-98F2-69FE5C61D9BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFC90F62-F167-42C3-93BA-2AFA340B6683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC90F62-F167-42C3-93BA-2AFA340B6683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC90F62-F167-42C3-93BA-2AFA340B6683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC90F62-F167-42C3-93BA-2AFA340B6683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45FAD2A8-1648-4962-B033-7EE0A71A893D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45FAD2A8-1648-4962-B033-7EE0A71A893D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45FAD2A8-1648-4962-B033-7EE0A71A893D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45FAD2A8-1648-4962-B033-7EE0A71A893D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

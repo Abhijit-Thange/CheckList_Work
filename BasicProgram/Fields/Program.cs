@@ -10,8 +10,8 @@ namespace Fields
         static void Main(string[] args)
         {
             Customers cs=new Customers(1);
-            cs.orders.Addition(new Orders());
-            cs.orders.Addition(new Orders());
+            cs.orders.Add(new Orders());
+            cs.orders.Add(new Orders());
 
             cs.Promot();
 

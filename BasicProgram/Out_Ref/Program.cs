@@ -25,7 +25,7 @@ namespace Out_Ref
     public static void RefOut(ref int x, out int y)
     {
             y = 10 + 20;    // before return the function out parameter must be initialized
-            x += 1;         //ref parameter is not compulsary to intialize before returning.
+          //x += 1;         //ref parameter is not compulsary to intialize before returning.
         //Console.WriteLine(x);
     }
             

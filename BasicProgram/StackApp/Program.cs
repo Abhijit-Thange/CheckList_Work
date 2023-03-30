@@ -10,14 +10,16 @@ namespace StackApp
     {
         static void Main(string[] args)
         {
-            Stack stack = new Stack();  
+            Stack stack = new Stack();
 
-            for(int i = 0; i < 5;i++)
-            {
-                stack.Push(i);
-            }
-            
-            for(int i = 0;i < 5;i++)
+            stack.Push(10);
+            stack.Push(20);
+            stack.Push(30);
+            stack.Push(40);
+            stack.Push(90);
+
+
+            for (int i = 0;i < 5;i++)
             {
                 Console.WriteLine(stack.Pop());
                 
@@ -36,16 +38,20 @@ namespace StackApp
             //if(list.Count==0)
              //   Console.WriteLine("Element Not Availlable... ");
             
-            list.Addition(x);
+            list.Add(x);
         }
 
         public int Pop()
         {
-            if(list.Count==0)   
+            int index=0;
+            if (list.Count == 0)
                 Console.WriteLine("Stack is Empty...");
-            var index=list.Count-1;
-            var toreturn= list[index];
-            list.RemoveAt(list.Count-1);
+            else
+            {
+                 index = (int)list[list.Count - 1];
+                //var toreturn= list[index];
+                list.RemoveAt(list.Count - 1);
+            }
             return index;
             
         }

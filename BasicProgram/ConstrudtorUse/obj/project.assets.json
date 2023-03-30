@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\ConstructorUse\\ConstrudtorUse\\ConstructorUse.csproj",
+      "projectUniqueName": "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\CheckList_Work\\BasicProgram\\ConstrudtorUse\\ConstructorUse.csproj",
       "projectName": "ConstructorUse",
-      "projectPath": "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\ConstructorUse\\ConstrudtorUse\\ConstructorUse.csproj",
+      "projectPath": "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\CheckList_Work\\BasicProgram\\ConstrudtorUse\\ConstructorUse.csproj",
       "packagesPath": "C:\\Users\\Nimap\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\ConstructorUse\\ConstrudtorUse\\obj\\",
+      "outputPath": "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\CheckList_Work\\BasicProgram\\ConstrudtorUse\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",

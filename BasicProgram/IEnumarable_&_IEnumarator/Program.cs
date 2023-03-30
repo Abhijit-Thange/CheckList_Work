@@ -11,13 +11,13 @@ namespace IEnumarable___IEnumarator
         static void Main(string[] args)
         {
             List<int> list = new List<int>();      
-            list.Addition(1);
-            list.Addition(2);
-            list.Addition(3);
-            list.Addition(4);
-            list.Addition(5);
-            list.Addition(6);
-            list.Addition(7);
+            list.Add(1);
+            list.Add(2);
+            list.Add(3);
+            list.Add(4);
+            list.Add(5);
+            list.Add(6);
+            list.Add(7);
 
             IEnumerable<int> enumerable = list.ToArray();
             foreach (int i in enumerable)

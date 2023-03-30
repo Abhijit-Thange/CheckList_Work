@@ -6,3 +6,11 @@ C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\StackApp\obj\Debug\StackApp
 C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\StackApp\obj\Debug\StackApp.csproj.CoreCompileInputs.cache
 C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\StackApp\obj\Debug\StackApp.exe
 C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\StackApp\obj\Debug\StackApp.pdb
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\StackApp\bin\Debug\StackApp.exe.config
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\StackApp\bin\Debug\StackApp.exe
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\StackApp\bin\Debug\StackApp.pdb
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\StackApp\obj\Debug\StackApp.csproj.AssemblyReference.cache
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\StackApp\obj\Debug\StackApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\StackApp\obj\Debug\StackApp.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\StackApp\obj\Debug\StackApp.exe
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\StackApp\obj\Debug\StackApp.pdb

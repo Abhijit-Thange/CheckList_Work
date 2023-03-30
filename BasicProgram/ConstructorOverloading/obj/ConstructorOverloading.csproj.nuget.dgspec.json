@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\ConstructorUse\\ConstructorOverloading\\ConstructorOverloading.csproj": {}
+    "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\CheckList_Work\\BasicProgram\\ConstructorOverloading\\ConstructorOverloading.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\ConstructorUse\\ConstructorOverloading\\ConstructorOverloading.csproj": {
+    "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\CheckList_Work\\BasicProgram\\ConstructorOverloading\\ConstructorOverloading.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\ConstructorUse\\ConstructorOverloading\\ConstructorOverloading.csproj",
+        "projectUniqueName": "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\CheckList_Work\\BasicProgram\\ConstructorOverloading\\ConstructorOverloading.csproj",
         "projectName": "ConstructorOverloading",
-        "projectPath": "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\ConstructorUse\\ConstructorOverloading\\ConstructorOverloading.csproj",
+        "projectPath": "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\CheckList_Work\\BasicProgram\\ConstructorOverloading\\ConstructorOverloading.csproj",
         "packagesPath": "C:\\Users\\Nimap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\ConstructorUse\\ConstructorOverloading\\obj\\",
+        "outputPath": "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\CheckList_Work\\BasicProgram\\ConstructorOverloading\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",

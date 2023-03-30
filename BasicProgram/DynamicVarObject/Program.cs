@@ -8,12 +8,24 @@ namespace DynamicVarObject
 {
     internal class Program
     {
+        // var n = 10; we can not declare var variable globally
+        object o = 20;
+        dynamic d = 50;
         static void Main(string[] args)
         {
-            dynamic obj = "Abhi";
-            Console.WriteLine(obj);
-            obj= 10;
-            Console.WriteLine(obj);
+            var testVar = "Abhijit"; //var hold the reference initial type.
+            //var testVar = "Thange"; // we canot redeclare  and re-initilized var variable 
+
+            object testObject = 25;
+            testObject = "Abhijit";  // we can redeclare object variable with different type 
+            string assign = (string)testObject;
+            string assign2 = testObject.ToString();// we need to explocitly type casting for object variable.
+
+            dynamic testDynamic = 10;
+            testDynamic = "Abhi";
+            string assignd = testDynamic; // for dynamic reference no need explicitly type casting.
+
+            Console.WriteLine(testDynamic);
 
             dynamic x = 10;
             dynamic y = 20;

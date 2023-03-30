@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\ConstructorUse\\MethodOverload\\MethodOverload.csproj": {}
+    "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\CheckList_Work\\BasicProgram\\MethodOverload\\MethodOverload.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\ConstructorUse\\MethodOverload\\MethodOverload.csproj": {
+    "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\CheckList_Work\\BasicProgram\\MethodOverload\\MethodOverload.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\ConstructorUse\\MethodOverload\\MethodOverload.csproj",
+        "projectUniqueName": "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\CheckList_Work\\BasicProgram\\MethodOverload\\MethodOverload.csproj",
         "projectName": "MethodOverload",
-        "projectPath": "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\ConstructorUse\\MethodOverload\\MethodOverload.csproj",
+        "projectPath": "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\CheckList_Work\\BasicProgram\\MethodOverload\\MethodOverload.csproj",
         "packagesPath": "C:\\Users\\Nimap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\ConstructorUse\\MethodOverload\\obj\\",
+        "outputPath": "C:\\Users\\Nimap\\Desktop\\CheckList_Task\\CheckList_Work\\BasicProgram\\MethodOverload\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",

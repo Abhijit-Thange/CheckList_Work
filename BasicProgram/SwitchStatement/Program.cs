@@ -12,20 +12,28 @@ namespace SwitchStatement
         static void Main(string[] args)
         {
             Console.WriteLine("Enter a NUmber" );
-            int i=Console.Read();
+            int i= Convert.ToInt32(Console.ReadLine());
+           // int i = Convert.ToInt32(n);
+            Console.WriteLine("External ", i);
 
             switch(i)
             {
-                case 'a': Console.WriteLine(i); break;
+                case 1: Console.WriteLine(value());
+                    break;
 
-                    case 'b': Console.WriteLine(i);   Console.WriteLine(i); break;
+                    case 2: Console.WriteLine(i);   Console.WriteLine(i); break;
 
-                    case 'c': Console.WriteLine(i);  break;
+                    case 3: Console.WriteLine(i);  break;
 
 
             }
+            Console.ReadKey();
+           // Console.ReadLine();
+        }
 
-            Console.ReadLine();
+        public static int value()
+        {
+            return 10;
         }
     }
 }
