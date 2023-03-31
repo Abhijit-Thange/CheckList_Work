@@ -1,8 +1,0 @@
-C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\StringInterpolation\bin\Debug\StringInterpolation.exe.config
-C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\StringInterpolation\bin\Debug\StringInterpolation.exe
-C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\StringInterpolation\bin\Debug\StringInterpolation.pdb
-C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\StringInterpolation\obj\Debug\StringInterpolation.csproj.AssemblyReference.cache
-C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\StringInterpolation\obj\Debug\StringInterpolation.csproj.SuggestedBindingRedirects.cache
-C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\StringInterpolation\obj\Debug\StringInterpolation.csproj.CoreCompileInputs.cache
-C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\StringInterpolation\obj\Debug\StringInterpolation.exe
-C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\StringInterpolation\obj\Debug\StringInterpolation.pdb

@@ -16,8 +16,9 @@
                     })
                 .PrimaryKey(t => t.Id);
 
-            
-            
+          
+            Sql("INSERT INTO Categories(Id,Name) VALUES(2,'Plastic')");
+
         }
         
         public override void Down()

@@ -12,15 +12,16 @@ namespace AsyncAwait
         static void Main(string[] args)
         {
             Test();
+            Console.WriteLine("Main Thread....");
             Console.ReadLine();
 
         }
 
         public static async void Test() 
         {
-            Console.WriteLine("Thtead Start...");
+           // Console.WriteLine("Thtead Start...");
            await Task.Run(new Action(Check));
-            Console.WriteLine("Thred Complete......");
+            Console.WriteLine("Thread Complete......");
         }
 
         public static void Check() 

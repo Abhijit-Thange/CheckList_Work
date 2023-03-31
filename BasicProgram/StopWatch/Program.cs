@@ -8,16 +8,67 @@ using System.Threading.Tasks;
 
 namespace StopWatchProgram
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Stopwatch sw=new Stopwatch();
-            sw.Start();
-            
-            Console.WriteLine(sw.ElapsedTicks);
+            StopWatch sw=new StopWatch();
+            Console.WriteLine("Press Any Ket to Start Stopwatch...");
+            Console.ReadKey();
+
+            sw.start();
+
+            Console.WriteLine("Press Any Ket to Stop Stopwatch...");
+            Console.ReadKey();
+
+            sw.stop();
+            Console.WriteLine("Total Time = "+ sw.ElapsedTime);
             Console.ReadLine();
 
+        }
+    }
+
+    public class StopWatch
+    {
+        private DateTime _startTime;
+        private DateTime _endTime;
+        private bool _isRunning=false;
+
+        public void start()
+        {
+           
+                if (!_isRunning)
+                {
+                    _startTime = DateTime.Now;
+                    _isRunning = true;
+                   // Console.WriteLine("start Time s=" + s.ElapsedTime);
+                }
+            
+            
+        }
+
+        public void stop()
+        {
+            if(_isRunning)
+            {
+                _endTime = DateTime.Now;
+                _isRunning = false;
+               // Console.WriteLine("Current Time=" + _endTime);
+            }
+        }
+        public TimeSpan ElapsedTime
+        {
+            get
+            {
+                if(_isRunning)
+                {
+                    return DateTime.Now - _startTime;
+                }
+                else
+                {
+                    return _endTime - _startTime;
+                }
+            }
         }
     }
 }

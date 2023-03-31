@@ -15,15 +15,15 @@ namespace StackApp
             stack.Push(10);
             stack.Push(20);
             stack.Push(30);
+            stack.Pop();
+            stack.Pop();
+            stack.Pop();
+            stack.Pop();
             stack.Push(40);
             stack.Push(90);
 
+            stack.Pop();
 
-            for (int i = 0;i < 5;i++)
-            {
-                Console.WriteLine(stack.Pop());
-                
-            }
             Console.ReadLine();
 
         }
@@ -35,25 +35,18 @@ namespace StackApp
 
         public void Push(int x) 
         { 
-            //if(list.Count==0)
-             //   Console.WriteLine("Element Not Availlable... ");
-            
             list.Add(x);
         }
 
-        public int Pop()
+        public void Pop()
         {
-            int index=0;
             if (list.Count == 0)
                 Console.WriteLine("Stack is Empty...");
             else
             {
-                 index = (int)list[list.Count - 1];
-                //var toreturn= list[index];
+                Console.WriteLine("Pop Element :"+list[list.Count-1]);
                 list.RemoveAt(list.Count - 1);
-            }
-            return index;
-            
+            }           
         }
     }
 
