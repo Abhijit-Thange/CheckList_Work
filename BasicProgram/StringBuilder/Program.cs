@@ -8,8 +8,12 @@ namespace Stringbuilder
 {
     internal class Program
     {
+        
         static void Main(string[] args)
         {
+            string n = "\"Abhijit\"\nThange";
+            string p = @"C\Program\Nimap";
+            Console.WriteLine(n+ "     "+p);
 
             StringBuilder str1 = new StringBuilder("Nimap");
 

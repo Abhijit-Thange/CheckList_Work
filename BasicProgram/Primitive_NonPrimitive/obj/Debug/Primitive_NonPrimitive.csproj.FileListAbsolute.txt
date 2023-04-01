@@ -1,0 +1,8 @@
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Primitive_NonPrimitive\bin\Debug\Primitive_NonPrimitive.exe.config
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Primitive_NonPrimitive\bin\Debug\Primitive_NonPrimitive.exe
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Primitive_NonPrimitive\bin\Debug\Primitive_NonPrimitive.pdb
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Primitive_NonPrimitive\obj\Debug\Primitive_NonPrimitive.csproj.AssemblyReference.cache
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Primitive_NonPrimitive\obj\Debug\Primitive_NonPrimitive.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Primitive_NonPrimitive\obj\Debug\Primitive_NonPrimitive.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Primitive_NonPrimitive\obj\Debug\Primitive_NonPrimitive.exe
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Primitive_NonPrimitive\obj\Debug\Primitive_NonPrimitive.pdb

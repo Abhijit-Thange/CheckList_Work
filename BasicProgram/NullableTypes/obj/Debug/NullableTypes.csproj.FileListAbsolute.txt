@@ -1,0 +1,8 @@
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\NullableTypes\bin\Debug\NullableTypes.exe.config
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\NullableTypes\bin\Debug\NullableTypes.exe
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\NullableTypes\bin\Debug\NullableTypes.pdb
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\NullableTypes\obj\Debug\NullableTypes.csproj.AssemblyReference.cache
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\NullableTypes\obj\Debug\NullableTypes.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\NullableTypes\obj\Debug\NullableTypes.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\NullableTypes\obj\Debug\NullableTypes.exe
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\NullableTypes\obj\Debug\NullableTypes.pdb

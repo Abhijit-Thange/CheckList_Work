@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Primitive_NonPrimitive
 {
+
     internal class Program
     {
+        
         static void Main(string[] args)
         {
             byte pb = 10;
@@ -30,8 +32,15 @@ namespace Primitive_NonPrimitive
             char ch='a';
             Char c = ch;
 
-             bool boolean=false;
-            Boolean boolean2=false;     
+            bool boolean = false;
+            Boolean boolean2=false;
+            
+            string str1 = "123Pq";
+            int k;
+            int n=int.Parse(str1); //it throws an error if conversion fails
+            bool m=int.TryParse(str1, out k);// this is not throws an error if conversion fais because its return type id boolean.
+
+            Console.WriteLine(n);   
             
         }
     }
