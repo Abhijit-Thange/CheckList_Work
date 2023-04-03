@@ -8,7 +8,7 @@
         public override void Up()
         {
             CreateTable(
-                "dbo._Categories",
+                "dbo.Categories",
                 c => new
                 {
                     Id = c.Int(nullable: false, identity: true),
@@ -16,7 +16,7 @@
                 })
                 .PrimaryKey(t => t.Id);
 
-            Sql("Insert into _Categories (Name) SELECT Name from Categories");
+            Sql("Insert into Categories (Name) SELECT Name from Categories");
 
             DropTable("dbo.Categories");
         }

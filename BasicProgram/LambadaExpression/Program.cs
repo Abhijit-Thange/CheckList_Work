@@ -14,7 +14,8 @@ namespace LambadaExpression
         {
             //Expression Lambda Expression
             MyDelegate obj = (a) => a * a;
-           // Console.WriteLine(obj.Invoke(7));
+           int i= obj.Invoke(7);
+            Console.WriteLine(i);
 
             MyDelegate2 obj2 = (a, b) => a + b;
            // Console.WriteLine(obj2.Invoke(5, 10));
