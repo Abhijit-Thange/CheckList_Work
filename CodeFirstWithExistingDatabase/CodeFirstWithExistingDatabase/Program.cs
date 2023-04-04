@@ -113,6 +113,7 @@ namespace CodeFirstWithExistingDatabase
                 Console.WriteLine("{0} by {1}", tag.Name, tag.Author.Name);
             }
 
+
             //Eager Loading for Single Properties
 
             /* var single= context.Courses.Include(c => c.Author.Address).ToList(); //In Author Entity Navigation Property Not Available
@@ -127,6 +128,39 @@ namespace CodeFirstWithExistingDatabase
               foreach(var tag in collection)
               { Console.WriteLine(tag.Name); }
             */
+
+            //-----------------------CHANGING DATA------------------------------------
+
+            //Adding new Objects...
+
+             var aut=context.Authors.Single(a=>a.Id == 3);
+
+          /*   var addcourse= new Course
+             {
+                 Name = "Java",
+                 Description = "OOPS",
+                 FullPrice = 250,
+                 Level = 1,
+                 Author = aut,
+             };
+
+             context.Courses.Add(addcourse);
+             context.SaveChanges();
+          */
+            //Update Object...
+
+        /*    var updatecourse = context.Courses.Find(3);  //Single(a=>a.Id == 2);
+            updatecourse.Name = "EntityFramework";
+            updatecourse.Author_Id = 1;
+            context.SaveChanges();
+         */
+            //Remove Object.... 
+
+          /*  var removecourse = context.Authors.Include(c => c.Courses).Single(a => a.Id == 2);
+            context.Courses.RemoveRange(removecourse.Courses);
+            context.Authors.Remove(removecourse);
+            context.SaveChanges();
+         */
             Console.ReadLine();
         }
     }
