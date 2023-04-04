@@ -10,6 +10,7 @@ namespace CodeFirstWithExistingDatabase
         public PlutoContext()
             : base("name=PlutoContext")
         {
+           // this.Configuration.LazyLoadingEnabled = false; // for enable or disable lazy loading..
         }
 
         public virtual DbSet<Author> Authors { get; set; }
