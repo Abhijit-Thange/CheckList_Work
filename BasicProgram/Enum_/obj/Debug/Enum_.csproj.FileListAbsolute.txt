@@ -1,0 +1,8 @@
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Enum_\bin\Debug\Enum_.exe.config
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Enum_\bin\Debug\Enum_.exe
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Enum_\bin\Debug\Enum_.pdb
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Enum_\obj\Debug\Enum_.csproj.AssemblyReference.cache
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Enum_\obj\Debug\Enum_.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Enum_\obj\Debug\Enum_.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Enum_\obj\Debug\Enum_.exe
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Enum_\obj\Debug\Enum_.pdb
