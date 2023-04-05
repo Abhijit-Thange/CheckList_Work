@@ -13,22 +13,29 @@ namespace MethodOverriding
             Console.WriteLine("Parent Class....");
         }
     }
-
     class Child:Parent
     {
         public override void Print()
         {
+           //  base.Print();
             Console.WriteLine("Child Class....");
         }
     }
-    internal class Program
+
+    class ThirdChild:Child
     {
+        public new void Print()
+        {
+            Console.WriteLine("Third Child Class.....");
+        }
+    }
+    internal class Program
+    {        
         static void Main(string[] args)
         {
-            Parent p=new Child();
+            Parent p=new ThirdChild();
             p.Print();
             Console.ReadLine();
-
         }
     }
 }
