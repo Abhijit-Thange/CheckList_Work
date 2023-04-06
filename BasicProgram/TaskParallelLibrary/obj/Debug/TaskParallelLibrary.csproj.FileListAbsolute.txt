@@ -6,3 +6,11 @@ C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\TaskParallelLibrary\obj\Deb
 C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\TaskParallelLibrary\obj\Debug\TaskParallelLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\TaskParallelLibrary\obj\Debug\TaskParallelLibrary.exe
 C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\TaskParallelLibrary\obj\Debug\TaskParallelLibrary.pdb
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\TaskParallelLibrary\bin\Debug\TaskParallelLibrary.exe.config
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\TaskParallelLibrary\bin\Debug\TaskParallelLibrary.exe
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\TaskParallelLibrary\bin\Debug\TaskParallelLibrary.pdb
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\TaskParallelLibrary\obj\Debug\TaskParallelLibrary.csproj.AssemblyReference.cache
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\TaskParallelLibrary\obj\Debug\TaskParallelLibrary.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\TaskParallelLibrary\obj\Debug\TaskParallelLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\TaskParallelLibrary\obj\Debug\TaskParallelLibrary.exe
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\TaskParallelLibrary\obj\Debug\TaskParallelLibrary.pdb

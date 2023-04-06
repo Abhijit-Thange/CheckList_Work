@@ -12,7 +12,7 @@ namespace Out_Ref
         {
 
             int n=10 ; //ref parameter is must be initialized at time of declaration.
-           int i ;     //out parameter is not mandotary to initialized at the time od declaration
+            int i=20 ;     //out parameter is not mandotary to initialized at the time od declaration
 
 
           RefOut(ref n, out i);     
@@ -24,8 +24,9 @@ namespace Out_Ref
 
     public static void RefOut(ref int x, out int y)
     {
-            y = 10 + 20;    // before return the function out parameter must be initialized
-          //x += 1;         //ref parameter is not compulsary to intialize before returning.
+            y = 0; // 
+            y = y + 20;    // before return the function out parameter must be initialized
+          x += 1;         //ref parameter is not compulsary to intialize before returning.
         //Console.WriteLine(x);
     }
             

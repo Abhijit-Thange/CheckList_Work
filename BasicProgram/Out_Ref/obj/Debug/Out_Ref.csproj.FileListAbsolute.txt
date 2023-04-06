@@ -6,3 +6,11 @@ C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\Out_Ref\obj\Debug\Out_Ref.c
 C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\Out_Ref\obj\Debug\Out_Ref.csproj.CoreCompileInputs.cache
 C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\Out_Ref\obj\Debug\Out_Ref.exe
 C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\Out_Ref\obj\Debug\Out_Ref.pdb
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Out_Ref\bin\Debug\Out_Ref.exe.config
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Out_Ref\bin\Debug\Out_Ref.exe
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Out_Ref\bin\Debug\Out_Ref.pdb
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Out_Ref\obj\Debug\Out_Ref.csproj.AssemblyReference.cache
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Out_Ref\obj\Debug\Out_Ref.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Out_Ref\obj\Debug\Out_Ref.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Out_Ref\obj\Debug\Out_Ref.exe
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Out_Ref\obj\Debug\Out_Ref.pdb
