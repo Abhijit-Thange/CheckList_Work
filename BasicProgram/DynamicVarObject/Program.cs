@@ -14,12 +14,12 @@ namespace DynamicVarObject
         static void Main(string[] args)
         {
             var testVar = "Abhijit"; //var hold the reference initial type.
-            //var testVar = "Thange"; // we canot redeclare  and re-initilized var variable 
+           //  testVar = 25; // we canot  re-initilized var variable with different type 
 
             object testObject = 25;
             testObject = "Abhijit";  // we can redeclare object variable with different type 
             string assign = (string)testObject;
-            string assign2 = testObject.ToString();// we need to explocitly type casting for object variable.
+            string assign2 = testObject.ToString();// we need to explicitly type casting for object variable.
 
             dynamic testDynamic = 10;
             testDynamic = "Abhi";

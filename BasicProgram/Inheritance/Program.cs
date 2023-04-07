@@ -10,7 +10,12 @@ namespace Inheritance
     {
         public virtual void Print()
         {
-            Console.WriteLine("Parent Class");
+            Console.WriteLine("Parent Class ");
+        }
+
+        public Parent() 
+        {
+            Console.WriteLine("Parent Class Constructor....");
         }
     }
 
@@ -20,6 +25,11 @@ namespace Inheritance
         {
           //  base.Print();
             Console.WriteLine("Child Class....");
+        }
+
+       public Child()
+        {
+            Console.WriteLine(" Child class Constructor.....");
         }
 
     }

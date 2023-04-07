@@ -8,7 +8,7 @@ namespace MethodOverriding
 {
     class Parent
     {
-        public virtual void Print()
+        public  virtual void Print()
         {
             Console.WriteLine("Parent Class....");
         }

@@ -12,6 +12,7 @@ namespace Primitive_NonPrimitive
         
         static void Main(string[] args)
         {
+            
             byte pb = 10;
             Byte np = 10;
 
@@ -34,13 +35,28 @@ namespace Primitive_NonPrimitive
 
             bool boolean = false;
             Boolean boolean2=false;
+
+            sbyte sb = 10;
+            
+        uint ui = 10;
+        ulong ul=20;
+            ushort us = 10;
             
             string str1 = "123Pq";
             int k;
             int n=int.Parse(str1); //it throws an error if conversion fails
             bool m=int.TryParse(str1, out k);// this is not throws an error if conversion fais because its return type id boolean.
 
-            Console.WriteLine(n);   
+            Console.WriteLine(n);
+
+            //Reference Type
+            string ss = "abc";
+              
+            //class
+            //all arrays
+            //object
+            //Delegates
+            //Interface
             
         }
     }
