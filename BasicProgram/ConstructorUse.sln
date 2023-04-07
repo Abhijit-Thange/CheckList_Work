@@ -63,6 +63,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "Except
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiDimensional_Jagged_Array", "MultiDimensional_Jagged_Array\MultiDimensional_Jagged_Array.csproj", "{B6ECEB9B-5F9D-4321-BE6A-16E28AF3C2F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticKeyword", "StaticKeyword\StaticKeyword.csproj", "{5F8FD531-A61A-4C07-9ACF-1B09002049AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INTERFACE", "INTERFACE\INTERFACE.csproj", "{B2BBAC8A-AA1F-4F21-AB55-A628D88A4354}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +193,14 @@ Global
 		{B6ECEB9B-5F9D-4321-BE6A-16E28AF3C2F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6ECEB9B-5F9D-4321-BE6A-16E28AF3C2F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6ECEB9B-5F9D-4321-BE6A-16E28AF3C2F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F8FD531-A61A-4C07-9ACF-1B09002049AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8FD531-A61A-4C07-9ACF-1B09002049AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8FD531-A61A-4C07-9ACF-1B09002049AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8FD531-A61A-4C07-9ACF-1B09002049AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2BBAC8A-AA1F-4F21-AB55-A628D88A4354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BBAC8A-AA1F-4F21-AB55-A628D88A4354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BBAC8A-AA1F-4F21-AB55-A628D88A4354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BBAC8A-AA1F-4F21-AB55-A628D88A4354}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

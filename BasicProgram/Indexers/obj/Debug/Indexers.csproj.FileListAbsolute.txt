@@ -6,3 +6,11 @@ C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\Indexers\obj\Debug\Indexers
 C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\Indexers\obj\Debug\Indexers.csproj.CoreCompileInputs.cache
 C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\Indexers\obj\Debug\Indexers.exe
 C:\Users\Nimap\Desktop\CheckList_Task\ConstructorUse\Indexers\obj\Debug\Indexers.pdb
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Indexers\bin\Debug\Indexers.exe.config
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Indexers\bin\Debug\Indexers.exe
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Indexers\bin\Debug\Indexers.pdb
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Indexers\obj\Debug\Indexers.csproj.AssemblyReference.cache
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Indexers\obj\Debug\Indexers.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Indexers\obj\Debug\Indexers.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Indexers\obj\Debug\Indexers.exe
+C:\Users\Nimap\Desktop\CheckList_Task\CheckList_Work\BasicProgram\Indexers\obj\Debug\Indexers.pdb
