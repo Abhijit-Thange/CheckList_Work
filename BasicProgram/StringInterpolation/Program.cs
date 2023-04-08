@@ -18,7 +18,8 @@ namespace StringInterpolation
             Console.WriteLine("sum of " + n1 + " and " + n2 + " is " + (n1 + n2));
             s = "sum of " + n1 + " and " + n2 + " is " + (n1 + n2);
 
-            Console.WriteLine("sum of {0} and {1} is {2}",n1,n2,n1+n2);
+            Console.WriteLine("sum of {0" +
+                "} and {1} is {2}",n1,n2,n1+n2);
             s = string.Format("sum of {0} and {1} is {2}", n1, n2, n1 + n2);
 
             Console.WriteLine($"sum of {n1} and {n2} is {n1 + n2}"); //String Interopolation
