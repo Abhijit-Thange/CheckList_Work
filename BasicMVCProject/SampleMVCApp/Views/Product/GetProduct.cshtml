@@ -15,15 +15,15 @@
     </thead>
     <tbody>
         @{ 
-            foreach(SampleMVCApp.POCO.Product_Category_Data d in ViewBag.Products )
+            foreach(var d in (IEnumerable<SampleMVCApp.Models.Product>)ViewBag.Products )
             {
-                ViewData["id"] = d.CategoryId;
+                ViewData["id"] = d.ProductId;
                 var id = ViewData["id"];
                 <tr>
                     <th>@d.ProductId</th>
                     <th>@d.ProductName</th>
                     <th>@d.CategoryId</th>
-                    <th>@d.CategoryName</th>
+                    <th></th>
                     
                     <td> <a href="@Url.Action("UpdateProduct","Product",new {from=id})">Update</a></td>
                     <td> <a href="@Url.Action("DeleteProduct","Product",new {id=id})">Delete</a></td>

@@ -2,11 +2,12 @@
 @{
     ViewBag.Title = "UpdateProduct";
     int? id = ViewBag.From;
+    int? cid = ViewBag.id;
 }
 
 <center><h2>UpdateProduct</h2></center>
 
-<form method="POST" action="/categories/updateproductcategory">
+<form method="POST" action="/product/updateproduct">
     <div class="form-group">
         <label for="ProductId">Product Id:</label>
         <input value="@id" class="form-control" id="ProductId" name="ProductId">
@@ -14,6 +15,9 @@
     <div class="form-group">
         <label for="ProductName">Product Name:</label>
         <input type="text" class="form-control" id="ProductName" name="ProductName">
+    </div>
+    <div class="form-group">    
+        <input value="@cid"  class="form-control" id="CategoryId" name="CategoryId">
     </div>
     <div>
         <button type="submit" class="btn btn-primary">Update Product Category</button>

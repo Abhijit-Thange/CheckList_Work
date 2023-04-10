@@ -31,24 +31,29 @@ namespace SampleMVCApp.Controllers
         {
             dac.Products.Add(product);
            await dac.SaveChangesAsync();
-            return RedirectToAction("Categories", "CategoryList");
+            return RedirectToAction("CategoryList", "Categories");
         }
 
         public ActionResult GetProduct(int? id)
         {
-            //  var data= dac.Products.ToList();
-            int? CategoryId = id;
-            var products = (from p in dac.Products
-                            join c in dac.Categories on p.CategoryId equals CategoryId
+              var data= dac.Products.ToList();
+            int? CId = id;
+          /*  var products = (from p in dac.Products
+                            join c in dac.Categories on p.CategoryId equals CId
                             select new Product_Category_Data
                             {
                                 ProductId = p.ProductId,
                                 ProductName = p.ProductName,
                                 CategoryId = c.CategoryId,
-                                CategoryName = c.CategoryName
-                            });
+                                
+                            });*/
+          /*  var query1 = from c in dac.Products join p in dac.Categories
+                        on c.CategoryId.Equals(cId),
+                        select Product;*/
 
-            ViewBag.Products=products;
+            var query = dac.Products.Where(x => x.CategoryId == CId).ToList();
+            ViewBag.id = CId;
+            ViewBag.Products=query;
             return View();
         }
 
@@ -56,6 +61,7 @@ namespace SampleMVCApp.Controllers
         {
             int? id = from;
             ViewBag.From = id;
+
             return View();
         }
 
@@ -65,12 +71,13 @@ namespace SampleMVCApp.Controllers
             using (var mgr = new DataAccess())
             {
                 var data = mgr.Products.FirstOrDefault(c => c.ProductId == ProductId);
+              //  int id = product.ProductId;
                 if (data != null)
                 {
                     data.ProductId = product.ProductId;
                     data.ProductName = product.ProductName;
                     await mgr.SaveChangesAsync();
-                    return RedirectToAction("GetProduct", "Product");
+                    return RedirectToAction("GetProduct", "Product", new {id=product.ProductId});
                 }
                 else
                 {
