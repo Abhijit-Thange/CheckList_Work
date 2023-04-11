@@ -8,9 +8,9 @@ namespace CRUD_Operations_Product_and_Category.Controllers
 {
     public class HomeController : Controller
     {
-        public string Index()
+        public ActionResult Index()
         {
-            return "Good Things..";
+            return RedirectToAction("Index","Category");
         }
 
         public ActionResult About()
