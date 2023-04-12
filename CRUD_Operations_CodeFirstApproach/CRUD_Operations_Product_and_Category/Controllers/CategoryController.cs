@@ -125,5 +125,22 @@ namespace CRUD_Operations_Product_and_Category.Controllers
             }
             base.Dispose(disposing);
         }
+
+        public async Task<ActionResult> Activate(int id)
+        {
+            var category =await db.Categories.FindAsync(id);
+            category.IsActive = true;
+           await db.SaveChangesAsync();
+            return RedirectToAction("Index");
+        }
+
+        public async Task<ActionResult> Deactivate(int id)
+        {
+            var category =await db.Categories.FindAsync(id);
+            category.IsActive = false;
+           await db.SaveChangesAsync();
+            return RedirectToAction("Index");
+        }
+
     }
 }

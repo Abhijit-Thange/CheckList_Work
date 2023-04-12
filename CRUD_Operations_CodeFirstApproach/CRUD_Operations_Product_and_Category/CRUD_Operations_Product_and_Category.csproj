@@ -138,6 +138,10 @@
     <Compile Include="Migrations\202304110955514_InitialModel.designer.cs">
       <DependentUpon>202304110955514_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202304120944071_AddIsActiveColumnToCategoryTable.cs" />
+    <Compile Include="Migrations\202304120944071_AddIsActiveColumnToCategoryTable.designer.cs">
+      <DependentUpon>202304120944071_AddIsActiveColumnToCategoryTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Product.cs" />
@@ -238,6 +242,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202304110955514_InitialModel.resx">
       <DependentUpon>202304110955514_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304120944071_AddIsActiveColumnToCategoryTable.resx">
+      <DependentUpon>202304120944071_AddIsActiveColumnToCategoryTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
