@@ -44,8 +44,13 @@
         <div class="form-group">
             @Html.LabelFor(model => model.CategoryId, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                             
-                @Html.EditorFor(model => model.CategoryId, new { htmlAttributes = new { @class = "form-control" }})
+                <input value="@id" class="form-control" id="CategoryId" name="CategoryId" />
+
+                @{ //@Html.EditorFor(model => model.CategoryId, new { htmlAttributes = new { @class = "form-control" }, Value = "default value" })
+//   @Html.EditorFor(model => model.CategoryId, new { htmlAttributes = new { @class = "form-control" } })
+                }
+                
+
                 @Html.ValidationMessageFor(model => model.CategoryId, "", new { @class = "text-danger" })
             </div>
         </div>
@@ -59,7 +64,7 @@
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Back to List", "Index", new { id = id})
 </div>
 
 @section Scripts {

@@ -9,6 +9,8 @@ using System.Web;
 using System.Web.Mvc;
 using CRUD_Operations_Product_and_Category.DAL;
 using CRUD_Operations_Product_and_Category.Models;
+using System.Web.Routing;
+using System.Security.Cryptography;
 
 namespace CRUD_Operations_Product_and_Category.Controllers
 {
@@ -17,9 +19,11 @@ namespace CRUD_Operations_Product_and_Category.Controllers
         private DataManager db = new DataManager();
 
         // GET: Products
-        public async Task<ActionResult> Index()
+        public async Task<ActionResult> Index(int? id)
         {
-            return View(await db.Products.ToListAsync());
+            ViewBag.Id = id;
+            // return View(await db.Products.ToListAsync());
+            return View(await db.Products.Where(x => x.CategoryId == id).ToListAsync());
         }
 
         // GET: Products/Details/5
@@ -55,7 +59,7 @@ namespace CRUD_Operations_Product_and_Category.Controllers
             {
                 db.Products.Add(product);
                 await db.SaveChangesAsync();
-                return RedirectToAction("Index");
+                return RedirectToAction("Index",new RouteValueDictionary( new { id = product.CategoryId }));
             }
 
             return View(product);
@@ -87,7 +91,7 @@ namespace CRUD_Operations_Product_and_Category.Controllers
             {
                 db.Entry(product).State = EntityState.Modified;
                 await db.SaveChangesAsync();
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", new RouteValueDictionary(new { id = product.CategoryId }));
             }
             return View(product);
         }
@@ -110,15 +114,16 @@ namespace CRUD_Operations_Product_and_Category.Controllers
         // POST: Products/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> DeleteConfirmed(int id)
+        public async Task<ActionResult> DeleteConfirmed(int id,Product pro)
         {
             Product product = await db.Products.FindAsync(id);
             db.Products.Remove(product);
             await db.SaveChangesAsync();
-            return RedirectToAction("Index");
+          //  return RedirectToAction("Index");
+            return RedirectToAction("Index", new RouteValueDictionary(new { id = pro.CategoryId }));
         }
 
-        protected override void Dispose(bool disposing)
+       protected override void Dispose(bool disposing)
         {
             if (disposing)
             {
