@@ -8,6 +8,7 @@
 
 <form method="POST" action="/categories/updateproductcategory">
     <div class="form-group">
+        @ViewBag.ErrorMwessage
         <label for="CategoryId">Category Id:</label>
         <input value="@id" class="form-control" id="CategoryId" name="CategoryId">
     </div>

@@ -19,117 +19,81 @@ namespace CRUD_Operations_Product_and_Category.Controllers
         private DataManager db = new DataManager();
 
         // GET: Products
-        public async Task<ActionResult> Index(int? id)
+        public async Task<ActionResult> GetProductIndex(int? id)
         {
             ViewBag.Id = id;
-            // return View(await db.Products.ToListAsync());
-            return View(await db.Products.Where(x => x.CategoryId == id).ToListAsync());
+            var product = await db.Products.Where(x => x.CategoryId == id).ToListAsync();
+            return View(product);
         }
 
-        // GET: Products/Details/5
-        public async Task<ActionResult> Details(int? id)
+        public async Task<ActionResult> ProductDetails(int? id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
             Product product = await db.Products.FindAsync(id);
             if (product == null)
             {
-                return HttpNotFound();
+                ViewBag.ErrorMessage="Product Not Found";
+                return View();
             }
             return View(product);
         }
 
-        // GET: Products/Create
-        public ActionResult Create(int id)
+        public ActionResult AddProduct(int id)
         {
             ViewBag.Id = id;
             return View();
         }
 
-        // POST: Products/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create([Bind(Include = "ProductId,ProductName,Price,MfgDate,CategoryId")] Product product)
+        public async Task<ActionResult> AddProduct(Product product)
         {
             if (ModelState.IsValid)
             {
                 db.Products.Add(product);
                 await db.SaveChangesAsync();
-                return RedirectToAction("Index",new RouteValueDictionary( new { id = product.CategoryId }));
+                return RedirectToAction("GetProductIndex",new RouteValueDictionary( new { id = product.CategoryId }));
             }
 
             return View(product);
         }
 
-        // GET: Products/Edit/5
-        public async Task<ActionResult> Edit(int? id)
+        public async Task<ActionResult> EditProductInfo(int id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Product product = await db.Products.FindAsync(id);
-            if (product == null)
-            {
-                return HttpNotFound();
-            }
+            var product = await db.Products.FindAsync(id);
             return View(product);
         }
 
-        // POST: Products/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Edit([Bind(Include = "ProductId,ProductName,Price,MfgDate,CategoryId")] Product product)
+        public async Task<ActionResult> EditProductInfo(int ProductId,Product products)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(product).State = EntityState.Modified;
-                await db.SaveChangesAsync();
-                return RedirectToAction("Index", new RouteValueDictionary(new { id = product.CategoryId }));
+                var product= await db.Products.FirstOrDefaultAsync(p=>p.ProductId == ProductId);
+                if (product != null)
+                {
+                    product.CategoryId =products.CategoryId;
+                    product.ProductName = products.ProductName; 
+                    product.Price = products.Price;
+                    product.MfgDate = products.MfgDate;
+                    await db.SaveChangesAsync();
+                    return RedirectToAction("GetProductIndex", new RouteValueDictionary(new { id = product.CategoryId }));
+                }               
             }
-            return View(product);
+            return View(products);
         }
 
-        // GET: Products/Delete/5
-        public async Task<ActionResult> Delete(int? id)
+        public async Task<ActionResult> DeleteProduct(int id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
             Product product = await db.Products.FindAsync(id);
-            if (product == null)
-            {
-                return HttpNotFound();
-            }
             return View(product);
         }
 
-        // POST: Products/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<ActionResult> DeleteConfirmed(int id,Product pro)
+        [HttpPost, ActionName("DeleteProduct")]
+        public async Task<ActionResult> Delete(int id,Product pro)
         {
             Product product = await db.Products.FindAsync(id);
             db.Products.Remove(product);
             await db.SaveChangesAsync();
-          //  return RedirectToAction("Index");
-            return RedirectToAction("Index", new RouteValueDictionary(new { id = pro.CategoryId }));
-        }
-
-       protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
+            return RedirectToAction("GetProductIndex", new RouteValueDictionary(new { id = pro.CategoryId }));
         }
     }
 }

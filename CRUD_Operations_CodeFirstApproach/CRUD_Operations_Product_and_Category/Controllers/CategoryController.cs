@@ -17,129 +17,100 @@ namespace CRUD_Operations_Product_and_Category.Controllers
         private DataManager db = new DataManager();
 
         // GET: Category
-        public async Task<ActionResult> Index()
+        public async Task<ActionResult> GetCategoryIndex()
         {
-            return View(await db.Categories.ToListAsync());
+            var data = await db.Categories.ToListAsync();
+            return View(data);
         }
 
-        // GET: Category/Details/5
-        public async Task<ActionResult> Details(int? id)
+        public async Task<ActionResult> CategoryDetails(int? id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Category category = await db.Categories.FindAsync(id);
+            var category = await db.Categories.FirstOrDefaultAsync(x=>x.CategoryId==id);
             if (category == null)
             {
-                return HttpNotFound();
+                ViewBag.ErrorMessage = "Given Id is Not in Record...";
+                return View();
             }
             return View(category);
         }
 
-        // GET: Category/Create
-        public ActionResult Create()
+        public ActionResult CreateCategory()
         {
             return View();
         }
-
-        // POST: Category/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+        
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create([Bind(Include = "CategoryId,CategoryName")] Category category)
+        public async Task<ActionResult> CreateCategory(Category category)
         {
             if (ModelState.IsValid)
             {
                 db.Categories.Add(category);
                 await db.SaveChangesAsync();
-                return RedirectToAction("Index");
+                return RedirectToAction("GetCategoryIndex");
             }
 
             return View(category);
         }
 
-        // GET: Category/Edit/5
-        public async Task<ActionResult> Edit(int? id)
+        public async Task<ActionResult> EditCategory(int? id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Category category = await db.Categories.FindAsync(id);
+           
+            Category category = await db.Categories.FirstOrDefaultAsync(c=>c.CategoryId==id);
             if (category == null)
             {
-                return HttpNotFound();
+                return View();
             }
             return View(category);
         }
 
-        // POST: Category/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Edit([Bind(Include = "CategoryId,CategoryName")] Category category)
+        public async Task<ActionResult> EditCategory(int CategoryId,Category category)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(category).State = EntityState.Modified;
-                await db.SaveChangesAsync();
-                return RedirectToAction("Index");
+               var data=await db.Categories.FirstOrDefaultAsync(c=>c.CategoryId==CategoryId);
+                if (data != null)
+                {
+                    data.CategoryId=category.CategoryId;
+                    data.CategoryName=category.CategoryName;
+                    await db.SaveChangesAsync();
+                    return RedirectToAction("GetCategoryIndex");
+                }
+                
             }
             return View(category);
         }
 
-        // GET: Category/Delete/5
-        public async Task<ActionResult> Delete(int? id)
+        public async Task<ActionResult> DeleteCategory(int id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Category category = await db.Categories.FindAsync(id);
-            if (category == null)
-            {
-                return HttpNotFound();
-            }
+            var category = await db.Categories.FindAsync(id);
+           
             return View(category);
         }
 
-        // POST: Category/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<ActionResult> DeleteConfirmed(int id)
+        [HttpPost, ActionName("DeleteCategory")]
+        public async Task<ActionResult> Delete(int id)
         {
             Category category = await db.Categories.FindAsync(id);
             db.Categories.Remove(category);
             await db.SaveChangesAsync();
-            return RedirectToAction("Index");
+            return RedirectToAction("GetCategoryIndex");
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
-        }
-
-        public async Task<ActionResult> Activate(int id)
+        public async Task<ActionResult> ActivateCategory(int id)
         {
             var category =await db.Categories.FindAsync(id);
             category.IsActive = true;
            await db.SaveChangesAsync();
-            return RedirectToAction("Index");
+            return RedirectToAction("GetCategoryIndex");
         }
 
-        public async Task<ActionResult> Deactivate(int id)
+        public async Task<ActionResult> DeactivateCategory(int id)
         {
             var category =await db.Categories.FindAsync(id);
             category.IsActive = false;
            await db.SaveChangesAsync();
-            return RedirectToAction("Index");
+            return RedirectToAction("GetCategoryIndex"); 
         }
 
     }

@@ -61,9 +61,8 @@ namespace SampleMVCApp.Controllers
                 }
                 else
                 {
-                    string message = "Given Category Id not exists in Record...";
-                     ViewData["message"] = message;
-                    return RedirectToAction("CategoryList", "Categories");
+                    ViewBag.ErrorMwessage = "Given Category Id not exists in Record...";
+                    return View();
                 }
             }           
         } 

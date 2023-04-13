@@ -10,7 +10,7 @@ namespace CRUD_Operations_Product_and_Category.Controllers
     {
         public ActionResult Index()
         {
-            return RedirectToAction("Index","Category");
+            return RedirectToAction("GetCategoryIndex", "Category");
         }
 
         public ActionResult About()

@@ -1,12 +1,12 @@
 ﻿@model CRUD_Operations_Product_and_Category.Models.Product
 
 @{
-    ViewBag.Title = "Create";
+    ViewBag.Title = "AddProduct";
     int id = ViewBag.Id;
 }
 
 
-<h2>Create</h2>
+<h2>AddProduct</h2>
 
 
 @using (Html.BeginForm()) 
@@ -64,7 +64,7 @@
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index", new { id = id})
+    @Html.ActionLink("Back to List", "GetProductIndex", new { id = id})
 </div>
 
 @section Scripts {

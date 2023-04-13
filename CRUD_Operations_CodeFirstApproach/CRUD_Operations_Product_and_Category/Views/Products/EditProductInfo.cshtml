@@ -1,10 +1,10 @@
 ﻿@model CRUD_Operations_Product_and_Category.Models.Product
 
 @{
-    ViewBag.Title = "Edit";
+    ViewBag.Title = "Edit Product Info";
 }
 
-<h2>Edit</h2>
+<h2>Edit Product Details</h2>
 
 
 @using (Html.BeginForm())
@@ -58,7 +58,7 @@
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index", new {id=Model.CategoryId})
+    @Html.ActionLink("Back to List", "GetProductIndex", new {id=Model.CategoryId})
 </div>
 
 @section Scripts {

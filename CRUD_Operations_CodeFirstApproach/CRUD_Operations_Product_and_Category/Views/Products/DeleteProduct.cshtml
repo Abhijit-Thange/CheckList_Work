@@ -1,11 +1,12 @@
 ﻿@model CRUD_Operations_Product_and_Category.Models.Product
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "DeleteProduct";
 }
 
-<h2>Details</h2>
+<h2>Delete Product</h2>
 
+<h3>Are you sure you want to delete this?</h3>
 <div>
     <h4>Product</h4>
     <hr />
@@ -43,8 +44,16 @@
         </dd>
 
     </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+<div>
+    @Html.HiddenFor(model => model.CategoryId)
+    <div class="form-actions no-color">
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        @Html.ActionLink("Back to List", "GetProductIndex", new { id = Model.CategoryId })
+    </div>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ProductId }) |
-    @Html.ActionLink("Back to List", "Index", new { id = Model.CategoryId })
-</p>
+    }
+</div>
