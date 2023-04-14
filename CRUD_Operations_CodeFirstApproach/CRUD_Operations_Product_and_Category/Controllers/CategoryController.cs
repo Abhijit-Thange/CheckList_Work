@@ -19,6 +19,7 @@ namespace CRUD_Operations_Product_and_Category.Controllers
         // GET: Category
         public async Task<ActionResult> GetCategoryIndex()
         {
+           // var data = await db.Database.SqlQuery<Category>($"getCategoryDataWithPageSize @Page,@Size",);
             var data = await db.Categories.ToListAsync();
             return View(data);
         }
