@@ -22,8 +22,14 @@ namespace CRUD_Operations_Product_and_Category.Controllers
         public async Task<ActionResult> GetProductIndex(int? id)
         {
             ViewBag.Id = id;
-            var product = await db.Products.Where(x => x.CategoryId == id).ToListAsync();
-            return View(product);
+            if(id != null)
+            {
+                var product = await db.Products.Where(x => x.CategoryId == id).ToListAsync();
+                return View(product);
+            }
+            return View(TempData["BetweenDate"]);  
+           
+            
         }
 
         public async Task<ActionResult> ProductDetails(int? id)
@@ -94,6 +100,23 @@ namespace CRUD_Operations_Product_and_Category.Controllers
             db.Products.Remove(product);
             await db.SaveChangesAsync();
             return RedirectToAction("GetProductIndex", new RouteValueDictionary(new { id = pro.CategoryId }));
+        }
+
+
+        public ActionResult GetFromDateToDateMfgProduct()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult GetFromDateToDateMfgProduct(DateTime fromDate, DateTime toDate)
+        {
+            //  var data =db.Products.SqlQuery("Select * from db.Products where mfgDate between fromDate and toDate").ToList();
+            var query = from data in db.Products
+                        where data.MfgDate >= fromDate && data.MfgDate <= toDate
+                        select data;
+            TempData["BetweenDate"] =query.ToList();
+            return RedirectToAction("GetProductIndex");
         }
     }
 }

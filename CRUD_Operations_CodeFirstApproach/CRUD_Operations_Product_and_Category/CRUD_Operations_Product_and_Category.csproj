@@ -208,6 +208,7 @@
     <Content Include="Views\Products\ProductDetails.cshtml" />
     <Content Include="Views\Products\EditProductInfo.cshtml" />
     <Content Include="Views\Products\GetProductIndex.cshtml" />
+    <Content Include="Views\Products\GetFromDateToDateMfgProduct.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
